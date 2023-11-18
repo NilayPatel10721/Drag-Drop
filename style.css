@@ -1,0 +1,28 @@
+.hide {
+    display: none;
+}
+.box.drag-over {
+    border: dashed 3px red;
+}
+body{
+    height: 100vh;
+background: radial-gradient(at left bottom, rgba(155, 31, 137, 1.0), rgba(146, 172, 252, 1.0));
+}
+.box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    display: inline-block;
+  }
+  
+  .item {
+    width: 145px;
+    height: 145px;
+    background: #f2f2f2;
+    border: 2px dashed #ccc;
+  }
+  
+  .box.active {
+    border: 2px solid #555;
+  }
